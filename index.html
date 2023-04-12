@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Reproducción de video</title>
+  </head>
+  <body>    
+    <video id="videoPlayer" controls>
+        Tu navegador no soporta la reproducción de vídeo.
+    </video>
+    <br>
+    <input type="file" accept="video/mp4,video/webm,video/ogg" id="inputFile">
+    <br>
+    <div id="loadingMessage" style="display:none;">Cargando el video, por favor espere...</div>
+    <br>
+    <div id="videoControls">
+        <button id="playButton">Reproducir</button>
+        <button id="pauseButton">Pausar</button>
+        <button id="volumeUpButton">Volumen +</button>
+        <button id="volumeDownButton">Volumen -</button>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
